@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DC5D9F229B61F5E0059CB31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5D9F129B61F5E0059CB31 /* AppDelegate.m */; };
+		4DC5D9FB29B61F5E0059CB31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC5D9F929B61F5E0059CB31 /* Main.storyboard */; };
+		4DC5D9FD29B61F600059CB31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC5D9FC29B61F600059CB31 /* Assets.xcassets */; };
+		4DC5DA0029B61F600059CB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC5D9FE29B61F600059CB31 /* LaunchScreen.storyboard */; };
+		4DC5DA0329B61F600059CB31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5DA0229B61F600059CB31 /* main.m */; };
+		4DC5DA0A29B620070059CB31 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5DA0929B620070059CB31 /* ViewController.mm */; };
+		4DC5DA0D29B620450059CB31 /* MNN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC5DA0C29B620450059CB31 /* MNN.framework */; };
+		4DC5DA1129B620750059CB31 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DC5DA0E29B620750059CB31 /* cat.jpg */; };
+		4DC5DA1229B620750059CB31 /* names.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4DC5DA0F29B620750059CB31 /* names.txt */; };
+		4DC5DA1329B620750059CB31 /* mobilenet_v1.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4DC5DA1029B620750059CB31 /* mobilenet_v1.mnn */; };
+		4DC5DA1529B620C10059CB31 /* Pretreat.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5DA1429B620C10059CB31 /* Pretreat.metal */; };
+		4DC5DA1729B620DB0059CB31 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC5DA1629B620DB0059CB31 /* AVFoundation.framework */; };
+		4DC5DA1929B620E60059CB31 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC5DA1829B620E60059CB31 /* CoreML.framework */; };
+		4DC5DA1B29B620F40059CB31 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC5DA1A29B620F40059CB31 /* Metal.framework */; };
+		4DC5DA1D29B621250059CB31 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC5DA1C29B621250059CB31 /* CoreMedia.framework */; };
+		4DC5DA1F29B621A30059CB31 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC5DA1E29B621A30059CB31 /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DC5D9ED29B61F5E0059CB31 /* mobilnet_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobilnet_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC5D9F029B61F5E0059CB31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DC5D9F129B61F5E0059CB31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DC5D9F629B61F5E0059CB31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DC5D9FA29B61F5E0059CB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC5D9FC29B61F600059CB31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC5D9FF29B61F600059CB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DC5DA0129B61F600059CB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC5DA0229B61F600059CB31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DC5DA0929B620070059CB31 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		4DC5DA0C29B620450059CB31 /* MNN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MNN.framework; sourceTree = "<group>"; };
+		4DC5DA0E29B620750059CB31 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpg; path = resource/cat.jpg; sourceTree = "<group>"; };
+		4DC5DA0F29B620750059CB31 /* names.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = names.txt; path = resource/names.txt; sourceTree = "<group>"; };
+		4DC5DA1029B620750059CB31 /* mobilenet_v1.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; name = mobilenet_v1.mnn; path = resource/mobilenet_v1.mnn; sourceTree = "<group>"; };
+		4DC5DA1429B620C10059CB31 /* Pretreat.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Pretreat.metal; sourceTree = "<group>"; };
+		4DC5DA1629B620DB0059CB31 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4DC5DA1829B620E60059CB31 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		4DC5DA1A29B620F40059CB31 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		4DC5DA1C29B621250059CB31 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4DC5DA1E29B621A30059CB31 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC5D9EA29B61F5E0059CB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC5DA1F29B621A30059CB31 /* AVKit.framework in Frameworks */,
+				4DC5DA1D29B621250059CB31 /* CoreMedia.framework in Frameworks */,
+				4DC5DA1B29B620F40059CB31 /* Metal.framework in Frameworks */,
+				4DC5DA1929B620E60059CB31 /* CoreML.framework in Frameworks */,
+				4DC5DA1729B620DB0059CB31 /* AVFoundation.framework in Frameworks */,
+				4DC5DA0D29B620450059CB31 /* MNN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC5D9E429B61F5E0059CB31 = {
+			isa = PBXGroup;
+			children = (
+				4DC5DA0E29B620750059CB31 /* cat.jpg */,
+				4DC5DA1029B620750059CB31 /* mobilenet_v1.mnn */,
+				4DC5DA0F29B620750059CB31 /* names.txt */,
+				4DC5D9EF29B61F5E0059CB31 /* mobilnet_demo */,
+				4DC5D9EE29B61F5E0059CB31 /* Products */,
+				4DC5DA0B29B620440059CB31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC5D9EE29B61F5E0059CB31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC5D9ED29B61F5E0059CB31 /* mobilnet_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC5D9EF29B61F5E0059CB31 /* mobilnet_demo */ = {
+			isa = PBXGroup;
+			children = (
+				4DC5DA1429B620C10059CB31 /* Pretreat.metal */,
+				4DC5DA0929B620070059CB31 /* ViewController.mm */,
+				4DC5D9F029B61F5E0059CB31 /* AppDelegate.h */,
+				4DC5D9F129B61F5E0059CB31 /* AppDelegate.m */,
+				4DC5D9F629B61F5E0059CB31 /* ViewController.h */,
+				4DC5D9F929B61F5E0059CB31 /* Main.storyboard */,
+				4DC5D9FC29B61F600059CB31 /* Assets.xcassets */,
+				4DC5D9FE29B61F600059CB31 /* LaunchScreen.storyboard */,
+				4DC5DA0129B61F600059CB31 /* Info.plist */,
+				4DC5DA0229B61F600059CB31 /* main.m */,
+			);
+			path = mobilnet_demo;
+			sourceTree = "<group>";
+		};
+		4DC5DA0B29B620440059CB31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DC5DA1E29B621A30059CB31 /* AVKit.framework */,
+				4DC5DA1C29B621250059CB31 /* CoreMedia.framework */,
+				4DC5DA1A29B620F40059CB31 /* Metal.framework */,
+				4DC5DA1829B620E60059CB31 /* CoreML.framework */,
+				4DC5DA1629B620DB0059CB31 /* AVFoundation.framework */,
+				4DC5DA0C29B620450059CB31 /* MNN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC5D9EC29B61F5E0059CB31 /* mobilnet_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC5DA0629B61F600059CB31 /* Build configuration list for PBXNativeTarget "mobilnet_demo" */;
+			buildPhases = (
+				4DC5D9E929B61F5E0059CB31 /* Sources */,
+				4DC5D9EA29B61F5E0059CB31 /* Frameworks */,
+				4DC5D9EB29B61F5E0059CB31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobilnet_demo;
+			productName = mobilnet_demo;
+			productReference = 4DC5D9ED29B61F5E0059CB31 /* mobilnet_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC5D9E529B61F5E0059CB31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4DC5D9EC29B61F5E0059CB31 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 4DC5D9E829B61F5E0059CB31 /* Build configuration list for PBXProject "mobilnet_demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC5D9E429B61F5E0059CB31;
+			productRefGroup = 4DC5D9EE29B61F5E0059CB31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC5D9EC29B61F5E0059CB31 /* mobilnet_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC5D9EB29B61F5E0059CB31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC5DA1129B620750059CB31 /* cat.jpg in Resources */,
+				4DC5DA1229B620750059CB31 /* names.txt in Resources */,
+				4DC5DA1329B620750059CB31 /* mobilenet_v1.mnn in Resources */,
+				4DC5DA0029B61F600059CB31 /* LaunchScreen.storyboard in Resources */,
+				4DC5D9FD29B61F600059CB31 /* Assets.xcassets in Resources */,
+				4DC5D9FB29B61F5E0059CB31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC5D9E929B61F5E0059CB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC5D9F229B61F5E0059CB31 /* AppDelegate.m in Sources */,
+				4DC5DA0A29B620070059CB31 /* ViewController.mm in Sources */,
+				4DC5DA1529B620C10059CB31 /* Pretreat.metal in Sources */,
+				4DC5DA0329B61F600059CB31 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DC5D9F929B61F5E0059CB31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC5D9FA29B61F5E0059CB31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC5D9FE29B61F600059CB31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC5D9FF29B61F600059CB31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DC5DA0429B61F600059CB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DC5DA0529B61F600059CB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC5DA0729B61F600059CB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T3QR3X696;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mobilnet_demo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MNN.mobilnet-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC5DA0829B61F600059CB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T3QR3X696;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mobilnet_demo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MNN.mobilnet-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC5D9E829B61F5E0059CB31 /* Build configuration list for PBXProject "mobilnet_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC5DA0429B61F600059CB31 /* Debug */,
+				4DC5DA0529B61F600059CB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC5DA0629B61F600059CB31 /* Build configuration list for PBXNativeTarget "mobilnet_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC5DA0729B61F600059CB31 /* Debug */,
+				4DC5DA0829B61F600059CB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC5D9E529B61F5E0059CB31 /* Project object */;
+}

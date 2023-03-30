@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forwardType_list">
+        <item>CPU</item>
+        <item>OpenCL</item>
+        <item>OpenGL</item>
+        <item>Vulkan</item>
+    </string-array>
+    <string-array name="thread_list">
+        <item>thread 1</item>
+        <item>thread 2</item>
+        <item>thread 4</item>
+        <item>thread 6</item>
+        <item>thread 8</item>
+    </string-array>
+</resources>
