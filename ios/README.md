@@ -17,13 +17,7 @@ cp -r ios_build/Release-iphoneos/MNN.framework /path/to/MNNExample/mobilenet/ios
 ```
 
 ### 下载模型：
-从[MNNModelZoo](https://github.com/wangzhaode/MNNModelZoo)下载[mobilenet_v1.mnn](https://github.com/wangzhaode/MNNModelZoo/blob/main/cv/classification/mobilenet/mobilenet_v1.mnn)到`ios/mobilenet_demo/resource`目录下；
-
-示例：
-```
-git clone https://github.com/wangzhaode/MNNModelZoo
-cp MNNModelZoo/cv/classification/mobilenet/mobilenet_v1.mnn /path/to/MNNExample/mobilenet/ios/mobilenet_demo/resource
-```
+从[Release](https://github.com/wangzhaode/mobilenet-mnn/releases/tag/v1.0)下载模型文件。
 
 ## 2. 编译运行
 
