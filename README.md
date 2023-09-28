@@ -1,3 +1,5 @@
+![mnn-mobilenet](resource/logo.png)
+
 # mnn-mobilenet
 
 ## Model
